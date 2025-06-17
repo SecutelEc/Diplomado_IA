@@ -4,7 +4,7 @@ import re
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
-
+nltk.download('stopwords')
 
 # Function for text preprocessing
 def preprocess_text(text):
